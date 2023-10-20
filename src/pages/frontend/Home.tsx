@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../../components/frontend/Header';
 import { MAIN_IMG } from '../../Constants/frontend/constance';
 import { Link } from 'react-router-dom';
+import Footer from '../../components/frontend/Footer';
 
 const Home = () => {
   return (
@@ -13,10 +14,10 @@ const Home = () => {
         <img
           src={MAIN_IMG}
           alt="profile image"
-          className=' rounded-full w-80 h-80'
+          className=' rounded-full w-80 h-80 lg:w-96 lg:h-96 lg:mb-44'
         />
         <div className=" max-w-2xl px-2 py-10 sm:py-10 lg:py-10 lg:ml-16">
-          <div className="text-center">
+          <div className="text-center ">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
               Hello..
             </h1>
@@ -126,10 +127,22 @@ const Home = () => {
                 </svg>
               </button>
             </div>
+            <div className='flex justify-around lg:mx-32 mt-4'>
+              <div className='flex items-center justify-center w-24 h-24 lg:mr-2 lg:w-32 lg:h-32 my-6 rounded-full bg-yellow-600 text-white border border-gray-800 hover:cursor-pointer transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-gray-900 duration-300'>
+                <h1 className='text-center text-lg font-medium'>Resume</h1>
+              </div>
+              <div className='flex items-center justify-center w-24 h-24  lg:w-32 lg:h-32 my-6 rounded-full bg-red-600 text-white border border-gray-800 hover:cursor-pointer transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-gray-900 duration-300'>
+                <h1 className='text-center text-lg font-medium'>Projects</h1>
+              </div>
+              <div className='flex items-center justify-center w-24 h-24 lg:ml-2 lg:w-32 lg:h-32 my-6 rounded-full bg-cyan-500 text-white border border-gray-800 hover:cursor-pointer transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-gray-900 duration-300'>
+                <h1 className='text-center text-lg font-medium'>Contact</h1>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       {/* opening section ended */}
+      <Footer />
 
     </div>
   )

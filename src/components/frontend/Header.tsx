@@ -39,7 +39,7 @@ export default function Header() {
                     <a
                       className='text-gray-800 hover:bg-gray-200 hover:text-black rounded-md px-3 py-2 text-sm font-medium'
                     >
-                      Courses
+                      About
                     </a>
                     <a
                       className='text-gray-800 hover:bg-gray-200 hover:text-black rounded-md px-3 py-2 text-sm font-medium'
