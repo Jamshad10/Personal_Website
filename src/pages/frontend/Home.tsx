@@ -10,7 +10,7 @@ const Home = () => {
       <Header />
 
       {/* Opening Section */}
-      <div className='lg:flex lg:items-center lg:justify-center lg:mx-auto p-4 mx-2'>
+      <div className='lg:flex lg:items-center lg:justify-center lg:mx-auto p-4 mx-2 bg-slate-50'>
         <img
           src={MAIN_IMG}
           alt="profile image"
@@ -128,13 +128,13 @@ const Home = () => {
               </button>
             </div>
             <div className='flex justify-around lg:mx-32 mt-4'>
-              <div className='flex items-center justify-center w-24 h-24 lg:mr-2 lg:w-32 lg:h-32 my-6 rounded-full bg-yellow-600 text-white border border-gray-800 hover:cursor-pointer transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-gray-900 duration-300'>
+              <div className='flex items-center justify-center w-24 h-24 lg:mr-2 lg:w-32 lg:h-32 my-6 rounded-full bg-yellow-400 text-black border border-gray-800 hover:cursor-pointer transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-gray-900 hover:text-white duration-300'>
                 <h1 className='text-center text-lg font-medium'>Resume</h1>
               </div>
-              <div className='flex items-center justify-center w-24 h-24  lg:w-32 lg:h-32 my-6 rounded-full bg-red-600 text-white border border-gray-800 hover:cursor-pointer transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-gray-900 duration-300'>
+              <div className='flex items-center justify-center w-24 h-24  lg:w-32 lg:h-32 my-6 rounded-full bg-red-500 text-black border border-gray-800 hover:cursor-pointer transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-gray-900 hover:text-white duration-300'>
                 <h1 className='text-center text-lg font-medium'>Projects</h1>
               </div>
-              <div className='flex items-center justify-center w-24 h-24 lg:ml-2 lg:w-32 lg:h-32 my-6 rounded-full bg-cyan-500 text-white border border-gray-800 hover:cursor-pointer transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-gray-900 duration-300'>
+              <div className='flex items-center justify-center w-24 h-24 lg:ml-2 lg:w-32 lg:h-32 my-6 rounded-full bg-cyan-300 text-black border border-gray-800 hover:cursor-pointer transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-gray-900 hover:text-white duration-300'>
                 <h1 className='text-center text-lg font-medium'>Contact</h1>
               </div>
             </div>
