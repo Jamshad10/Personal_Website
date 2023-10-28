@@ -14,11 +14,11 @@ const Home = () => {
         <img
           src={MAIN_IMG}
           alt="profile image"
-          className=' rounded-full w-80 h-80 lg:w-96 lg:h-96 lg:mb-44 animate-fade-down animate-ease-in'
+          className=' rounded-full w-80 h-80 lg:w-96 lg:h-96 lg:mb-44 animate-fade-right animate-delay-300 animate-ease-in'
         />
         <div className=" max-w-2xl px-2 py-10 sm:py-10 lg:py-10 lg:ml-16">
           <div className="text-center ">
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl animate-fade-right animate-ease-in">
+            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl animate-fade-down animate-ease-in">
               Hello..
             </h1>
             <div className="sm:flex sm:justify-center py-4 animate-fade-down animate-ease-in">
@@ -127,7 +127,7 @@ const Home = () => {
                 </svg>
               </button>
             </div>
-            <div className='flex justify-around lg:mx-32 mt-4 animate-fade-down animate-ease-in'>
+            <div className='flex justify-around lg:mx-32 mt-4 animate-fade-up animate-delay-300 animate-ease-in'>
               <div className='flex items-center justify-center w-24 h-24 lg:mr-2 lg:w-32 lg:h-32 my-6 rounded-full bg-yellow-400 text-black border border-gray-800 hover:cursor-pointer transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-gray-900 hover:text-white duration-300'>
                 <h1 className='text-center text-lg font-medium'>Resume</h1>
               </div>

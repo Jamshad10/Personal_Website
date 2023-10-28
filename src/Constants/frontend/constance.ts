@@ -6,4 +6,4 @@ export const INSTAGRAM_LOGO = 'https://www.clipartmax.com/png/small/34-342803_in
 export const LINKDN_LOGO = 'https://www.clipartmax.com/png/small/36-367709_png-file-linkedin-logo-png-black.png';
 
 //home page images
-export const MAIN_IMG = '\Jamshad.png';
+export const MAIN_IMG = '/Jamshad.png';
