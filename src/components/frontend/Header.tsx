@@ -10,7 +10,7 @@ export default function Header() {
     <Disclosure as="nav" >
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-16">
             <div className="relative flex h-16 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
@@ -24,19 +24,19 @@ export default function Header() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start ">
                 <div className="flex flex-shrink-0 items-center">
                   <div className='rounded-full h-6 w-6 bg-yellow-500'></div>
                   <h1 className='mx-3 font-bold text-black text-2xl'>Jamshad</h1>
                   <h3 className='mt-1'>Developer</h3>
                 </div>
                 <div className="hidden sm:block lg:ms-80">
-                  <div className="flex md:ms-28">
+                  <div className="flex">
                     <Link
                       to={''}
                       className="group  text-gray-800 hover:text-rose-500 py-2 text-base font-normal relative"
                     >
-                      <span className='border-r-2 border-gray-600 px-3'>Home</span>
+                      <span className='border-r border-gray-600 px-3'>Home</span>
                       <div className="absolute inset-x-0 bottom-0 h-0.5 bg-rose-500 transform scale-x-0 group-hover:scale-x-50 transition-transform"></div>
                     </Link>
 
@@ -44,7 +44,7 @@ export default function Header() {
                       to={''}
                       className="group  text-gray-800 hover:text-rose-500 py-2 text-base font-normal relative"
                     >
-                      <span className='border-r-2 border-gray-600 px-3'>About</span>
+                      <span className='border-r border-gray-600 px-3'>About</span>
                       <div className="absolute inset-x-0 bottom-0 h-0.5 px-1 bg-rose-500 transform scale-x-0 group-hover:scale-x-50 transition-transform"></div>
                     </Link>
 
@@ -52,7 +52,7 @@ export default function Header() {
                       to={''}
                       className="group  text-gray-800 hover:text-rose-500 py-2 text-base font-normal relative"
                     >
-                      <span className='border-r-2 border-gray-600 px-3'>Contact</span>
+                      <span className='border-r border-gray-600 px-3'>Contact</span>
                       <div className="absolute inset-x-0 bottom-0 h-0.5 px-1 bg-rose-500 transform scale-x-0 group-hover:scale-x-50 transition-transform"></div>
                     </Link>
                   </div>

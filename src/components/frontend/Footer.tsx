@@ -3,23 +3,23 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className='bg-slate-50'>
-            <footer className="relative bg-blueGray-200  pt-2 pb-6 border-t border-gray-300">
+            <footer className="relative bg-slate-50  pt-2 pb-6 border-t border-gray-300 lg:px-10">
                 <div className="container mx-auto px-4">
                     <div className="flex flex-col text-left lg:flex-row ">
                         <div className="w-full lg:w-6/12 sm:w-full px-4 py-4">
-                            <h4 className="text-xl font-bold  text-gray-800">Phone</h4>
-                            <h5 className="text-lg mt-0  text-gray-500">
+                            <h4 className="text-lg font-bold  text-gray-800">Phone</h4>
+                            <h5 className="text-base mt-0  text-gray-500">
                                 +91 8129 43 00 43
                             </h5>
                         </div>
                         <div className="w-full lg:w-6/12 sm:w-full px-4 py-4">
-                            <h4 className="text-xl font-bold  text-gray-800">Email</h4>
-                            <h5 className="text-lg mt-0  text-gray-500">
+                            <h4 className="text-lg font-bold  text-gray-800">Email</h4>
+                            <h5 className="text-base mt-0  text-gray-500">
                                 jamshad.in@gmail.com
                             </h5>
                         </div>
                         <div className="w-full lg:w-6/12 sm:w-full px-4 py-4">
-                            <h4 className="text-xl font-bold  text-gray-800">Follow Me</h4>
+                            <h4 className="text-lg font-bold  text-gray-800">Follow Me</h4>
                             <div className='flex items-center  mt-2'>
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -44,10 +44,10 @@ const Footer = () => {
                         </div>
                         <div className="w-full lg:w-6/12 sm:w-full px-4 py-4">
 
-                            <h5 className="text-base mt-0 text-gray-500">
+                            <h5 className="text-sm mt-0 text-gray-500">
                                 © 2035 By Jamshad
                             </h5>
-                            <h5 className="text-base mt-0  text-gray-500">
+                            <h5 className="text-sm mt-0  text-gray-500">
                                 Powered and secured by Me
                             </h5>
                         </div>
